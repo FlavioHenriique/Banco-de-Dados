@@ -1,0 +1,18 @@
+1 - O nome e CPF de todos os vendedores que trabalham na cidade Sousa.
+
+2-  O nome e salário de todos os estoquistas.
+
+3- O código das vendas com valor acima de R$ 300,00.
+
+4- O nome e valor de todas as mercadorias do tipo "Cerveja".
+
+5- O nome do estabelecimento de todos os clientes localizados na cidade de Cajazeiras.
+
+6- O nome e código de todas as mercadorias com preço acima de R$ 10,00.
+
+7- O modelo e placa de todos os caminhões de categoria "leve".
+
+8- A data e hora de todas as vendas feitas na cidade Marizópolis. 
+
+9- 
+
