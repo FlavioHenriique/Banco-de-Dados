@@ -1,20 +1,20 @@
-1 - O nome e CPF de todos os vendedores que trabalham na cidade Sousa.
+1 - O nome e CPF de todos os vendedores que trabalham na cidade Sousa.  VENDEDOR
 
-2-  Os dados de todos os estoquistas.
+2-  Os dados dos estoquistas que controlam a mercadoria com código '001'.    ESTOQUISTA MERCADORIA
 
-3- O código das vendas com valor total acima de R$ 300,00.
+3- O código das vendas com valor total acima de R$ 300,00.    VENDAS
 
-4- O nome e preço de todas as mercadorias do tipo "Cerveja".
+4- O nome e preço de todas as mercadorias do tipo "Cerveja".   MERCADORIA
 
-5- O nome do estabelecimento, CPF e telefone(s) dos clientes que estão na cidade Cajazeiras.
+5- O nome do estabelecimento, CPF e telefone(s) dos clientes que estão na cidade Cajazeiras.  CLIENTE
 
-6- O nome, tipo e código de todas as mercadorias com preço acima de R$ 10,00.
+6- O tipo e código de todas as mercadorias com preço acima de R$ 10,00.    MERCADORIA
 
-7- O modelo, a montadora e a placa de todos os caminhões de categoria "leve".
+7- O modelo, a montadora e a placa de todos os caminhões de categoria "leve".  CAMINHÃO
 
-8- A data e hora de todas as vendas feitas na cidade Marizópolis. 
+8- O código e valor total de todas as vendas conferidas pela secretária com CPF '02547274418'.   VENDAS SECRETÁRIA
 
-9- O valor acumulado em todas as vendas realizadas.
+9- O valor acumulado em todas as vendas realizadas. VENDA
 	
-10- O nome e CPF de todos os clientes com o nome do estabelecimento iniciado pela letra 'F'.
+10- O nome e CPF de todos os clientes com o nome do estabelecimento iniciado pela letra 'F'.   CLIENTE
 
