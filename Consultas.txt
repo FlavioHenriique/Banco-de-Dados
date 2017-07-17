@@ -14,7 +14,7 @@
 
 8- O código e valor total de todas as vendas conferidas pela secretária com CPF '02547274418'.   VENDAS SECRETÁRIA
 
-9- O valor acumulado em todas as vendas realizadas. VENDA
+9- O valor acumulado em todas as vendas registradas. VENDA
 	
 10- O nome e CPF de todos os clientes com o nome do estabelecimento iniciado pela letra 'F'.   CLIENTE
 
