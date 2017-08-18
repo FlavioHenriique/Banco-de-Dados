@@ -1,0 +1,31 @@
+INSERT INTO SUPERVISOR(Nome, Sexo, RG, CPF, Salario, Nascimento) 
+VALUES ('Flavio Henrique', 'M','4132793','10902340409',2500,'28/09/1998');
+
+INSERT INTO SUPERVISOR(Nome, Sexo, RG, CPF, Salario, Nascimento) 
+VALUES ('Diego Gonçalves', 'M','1234567','12804144408',3000,'11/11/1995');
+
+INSERT INTO SUPERVISOR(Nome, Sexo, RG, CPF, Salario, Nascimento) 
+VALUES ('Mickael Pereira', 'M','7654321','11122233344',2900,'07/07/1995');
+
+INSERT INTO SUPERVISOR(Nome, Sexo, RG, CPF, Salario, Nascimento) 
+VALUES ('Maiary Pereira','F','1081243','77788899910',2800,'12/07/1992');
+
+INSERT INTO SUPERVISOR(Nome, Sexo, RG, CPF, Salario, Nascimento) 
+VALUES ('Arlene Santana','F','4734737','22134114302',3100,'12/11/1973');
+
+
+INSERT INTO VENDEDOR (Nome, Sexo, RG, CPF, Salario, Nascimento, CNH, Codigo, CPFSupervisor, Volume)
+VALUES ('Flavio Flor', 'M', '1241465','71384758553',1800,'08/05/1970','04307558988','1111','10902340409',35);
+
+INSERT INTO VENDEDOR (Nome, Sexo, RG, CPF, Salario, Nascimento, CNH, Codigo, CPFSupervisor, Volume)
+VALUES ('Anderson Sá', 'M', '9988776','50540430320',2000,'19/06/1998','17642132301','1112','12804144408',50);
+
+INSERT INTO VENDEDOR (Nome, Sexo, RG, CPF, Salario, Nascimento, CNH, Codigo, CPFSupervisor, Volume)
+VALUES ('Ricardo Lucas', 'M', '6677889','20230340455',1750,'23/09/1985','11123478925','1113','11122233344',130);
+
+INSERT INTO VENDEDOR (Nome, Sexo, RG, CPF, Salario, Nascimento, CNH, Codigo, CPFSupervisor, Volume)
+VALUES ('Saulo Victor', 'M', '5641421','35485748317',2200,'01/02/1981','88985570111','1114','77788899910',120);
+
+INSERT INTO VENDEDOR (Nome, Sexo, RG, CPF, Salario, Nascimento, CNH, Codigo, CPFSupervisor, Volume)
+VALUES ('Jonathas Dias', 'M', '5546678','66177255409',1750,'23/08/1991','70102437555','1115','22134114302',120);
+
