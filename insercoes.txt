@@ -29,3 +29,52 @@ VALUES ('Saulo Victor', 'M', '5641421','35485748317',2200,'01/02/1981','88985570
 INSERT INTO VENDEDOR (Nome, Sexo, RG, CPF, Salario, Nascimento, CNH, Codigo, CPFSupervisor, Volume)
 VALUES ('Jonathas Dias', 'M', '5546678','66177255409',1750,'23/08/1991','70102437555','1115','22134114302',120);
 
+
+
+INSERT INTO SECRETARIO(Nome, Sexo, RG, CPF, Salario, Nascimento) 
+VALUES ('Acidilene Santana', 'F','9815481','02547274418',2350,'03/05/1973');
+
+INSERT INTO SECRETARIO(Nome, Sexo, RG, CPF, Salario, Nascimento) 
+VALUES ('Jaqueline Lira', 'F','4051692','70232244406',4000,'12/07/1996');
+
+INSERT INTO SECRETARIO(Nome, Sexo, RG, CPF, Salario, Nascimento) 
+VALUES ('Juliana Lira', 'F','4062783','70132144401',3500,'08/03/1998');
+
+INSERT INTO SECRETARIO(Nome, Sexo, RG, CPF, Salario, Nascimento) 
+VALUES ('Beatriz Sarmento', 'F','5435411','80155112167',2000,'12/09/1998');
+
+INSERT INTO SECRETARIO(Nome, Sexo, RG, CPF, Salario, Nascimento) 
+VALUES ('Kaiky Sarmento', 'M','6546522','80255533450',1800,'24/06/1998');
+
+INSERT INTO ESTOQUISTA(Nome, Sexo, RG, CPF, Salario, Nascimento) 
+VALUES ('Lionel Messi', 'M','7787576','10802840808',2700,'01/01/1981');
+
+INSERT INTO ESTOQUISTA(Nome, Sexo, RG, CPF, Salario, Nascimento) 
+VALUES ('Francinete Flor', 'F','3131313','10902930909',2510,'02/02/1982');
+
+INSERT INTO ESTOQUISTA(Nome, Sexo, RG, CPF, Salario, Nascimento) 
+VALUES ('Dean Winchester', 'M','4141415','10540502545',1950,'03/03/1983');
+
+INSERT INTO ESTOQUISTA(Nome, Sexo, RG, CPF, Salario, Nascimento) 
+VALUES ('Fernanda Flor', 'F','2021279','20120244402',2440,'04/04/1984');
+
+INSERT INTO ESTOQUISTA(Nome, Sexo, RG, CPF, Salario, Nascimento) 
+VALUES ('Edinson Cavani', 'M','9101299','30130240403',3000,'05/05/1985');
+
+
+INSERT INTO ENTREGADOR(Nome, Sexo, RG, CPF, Salario, Nascimento, CNH) 
+VALUES ('Lucas Moura', 'M','1122334','60232266606',4500,'21/07/1981','0102030405');
+
+INSERT INTO ENTREGADOR(Nome, Sexo, RG, CPF, Salario, Nascimento, CNH) 
+VALUES ('Anderson Silva', 'M','4455667','70242144405',3800,'22/07/1982','01234567891');
+
+INSERT INTO ENTREGADOR(Nome, Sexo, RG, CPF, Salario, Nascimento, CNH) 
+VALUES ('Jessica Martins', 'F','7788990','80190110505',3050,'23/07/1983','08543217891');
+
+INSERT INTO ENTREGADOR(Nome, Sexo, RG, CPF, Salario, Nascimento, CNH) 
+VALUES ('Jheiziany Ruth', 'F','0102030','80244261601',2990,'24/07/1984','0414051593');
+
+INSERT INTO ENTREGADOR(Nome, Sexo, RG, CPF, Salario, Nascimento, CNH) 
+VALUES ('Leonardo Deca', 'M','1021036','50182171702',2810,'25/07/1985','01213141867');
+
+
