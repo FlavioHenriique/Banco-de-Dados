@@ -46,6 +46,7 @@ VALUES ('Beatriz Sarmento', 'F','5435411','80155112167',2000,'12/09/1998');
 INSERT INTO SECRETARIO(Nome, Sexo, RG, CPF, Salario, Nascimento) 
 VALUES ('Kaiky Sarmento', 'M','6546522','80255533450',1800,'24/06/1998');
 
+
 INSERT INTO ESTOQUISTA(Nome, Sexo, RG, CPF, Salario, Nascimento) 
 VALUES ('Lionel Messi', 'M','7787576','10802840808',2700,'01/01/1981');
 
@@ -130,4 +131,105 @@ VALUES('Ponto 8','56787644405','Júlio Marquês Nascimento','Lot. Parque Rosina Pa
 
 INSERT INTO CLIENTE(NomeEstabelecimento,CPF,Rua,Bairro,Cidade)
 VALUES('Bom Preço','10876544406','Firmino Tomaz de Aquino','Centro','Bom Jesus-PB');	
+
+
+INSERT INTO VENDA (Codigo, Hora, Cidade, Data, ValorTotal, CPFVendedor, Comissao, CPFSecretario, CPFCliente)
+VALUES(111,'12:30','Sousa-PB',22/12/2016,2000,'71384758553',100,'02547274418','12356798341');
+
+INSERT INTO VENDA (Codigo, Hora, Cidade, Data, ValorTotal, CPFVendedor, Comissao, CPFSecretario, CPFCliente)
+VALUES(112,'16:20','Bom Jesus-PB',05/18/2017,250,'50540430320',12.50,'02547274418','10876544406');
+
+INSERT INTO VENDA (Codigo, Hora, Cidade, Data, ValorTotal, CPFVendedor, Comissao, CPFSecretario, CPFCliente)
+VALUES(113,'09:40','Cajazeiras-PB',12/06/2017,290,'20230340455',5.8,'70232244406','23356688808');
+
+INSERT INTO VENDA (Codigo, Hora, Cidade, Data, ValorTotal, CPFVendedor, Comissao, CPFSecretario, CPFCliente)
+VALUES(114,'11:13','Cajazeiras-PB',03/07/2017,450,'11122233344',90,'70232244406','56787644405');
+
+INSERT INTO VENDA (Codigo, Hora, Cidade, Data, ValorTotal, CPFVendedor, Comissao, CPFSecretario, CPFCliente)
+VALUES(115,'13:45','Uiraúna-PB',19/08/2017,1500,'66177255409',30,'70132144401','12343255507');
+
+
+INSERT INTO TEM_MERCADORIA(CodVenda,CodMercadoria,Quantidade,PrecoUnitario)
+VALUES(111,'001',20,4.1);
+
+INSERT INTO TEM_MERCADORIA(CodVenda,CodMercadoria,Quantidade,PreçoUnitario)
+VALUES(111,'002',50,16.60);
+
+INSERT INTO TEM_MERCADORIA(CodVenda,CodMercadoria,Quantidade,PreçoUnitario)
+VALUES(112,'005',50,1.43);
+
+INSERT INTO TEM_MERCADORIA(CodVenda,CodMercadoria,Quantidade,PreçoUnitario)
+VALUES(113,'004',100,1.70);
+
+INSERT INTO TEM_MERCADORIA(CodVenda,CodMercadoria,Quantidade,PreçoUnitario)
+VALUES(114,'003',40,5.41);
+
+
+INSERT INTO CONTROLA_MERCADORIA(CPFEstoquista,CodMercadoria,Quantidade)
+VALUES('10802840808','002',2000);
+
+INSERT INTO CONTROLA_MERCADORIA(CPFEstoquista,CodMercadoria,Quantidade)
+VALUES('10902930909','001',3500);
+
+INSERT INTO CONTROLA_MERCADORIA(CPFEstoquista,CodMercadoria,Quantidade)
+VALUES('10540502545','001',1400);
+
+INSERT INTO CONTROLA_MERCADORIA(CPFEstoquista,CodMercadoria,Quantidade)
+VALUES('20120244402','003',4300);
+
+INSERT INTO CONTROLA_MERCADORIA(CPFEstoquista,CodMercadoria,Quantidade)
+VALUES('30130240403','005',550);
+
+
+INSERT INTO ENTREGA_MERCADORIA(CPFEntregador,CodMercadoria)
+VALUES('60232266606','002');
+
+INSERT INTO ENTREGA_MERCADORIA(CPFEntregador,CodMercadoria)
+VALUES('70242144405','004');
+
+INSERT INTO ENTREGA_MERCADORIA(CPFEntregador,CodMercadoria)
+VALUES('80190110505','002');
+
+INSERT INTO ENTREGA_MERCADORIA(CPFEntregador,CodMercadoria)
+VALUES('80244261601','003');
+
+INSERT INTO ENTREGA_MERCADORIA(CPFEntregador,CodMercadoria)
+VALUES('50182171702','001');
+
+
+INSERT INTO USA_CAMINHÃO(PlacaCaminhao,CPFEntregador)
+VALUES('NQD1745','50182171702');
+
+INSERT INTO USA_CAMINHÃO(PlacaCaminhao,CPFEntregador)
+VALUES('NPT1213','80244261601');
+
+INSERT INTO USA_CAMINHÃO(PlacaCaminhao,CPFEntregador)
+VALUES('GRU4568','80244261601');
+
+INSERT INTO USA_CAMINHÃO(PlacaCaminhao,CPFEntregador)
+VALUES('ARE2356','60232266606');
+
+INSERT INTO USA_CAMINHÃO(PlacaCaminhao,CPFEntregador)
+VALUES('YOU6789','70242144405');
+
+
+
+
+
+       
+       
+
+       
+       
+
+       
+
+
+       
+       
+
+       
+       
+
+       
 
