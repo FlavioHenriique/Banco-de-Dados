@@ -63,7 +63,7 @@ VALUES ('Edinson Cavani', 'M','9101299','30130240403',3000,'05/05/1985');
 
 
 INSERT INTO ENTREGADOR(Nome, Sexo, RG, CPF, Salario, Nascimento, CNH) 
-VALUES ('Lucas Moura', 'M','1122334','60232266606',4500,'21/07/1981','0102030405');
+VALUES ('Lucas Moura', 'M','1122334','60232266606',4500,'21/07/1981','01020304051');
 
 INSERT INTO ENTREGADOR(Nome, Sexo, RG, CPF, Salario, Nascimento, CNH) 
 VALUES ('Anderson Silva', 'M','4455667','70242144405',3800,'22/07/1982','01234567891');
@@ -72,9 +72,62 @@ INSERT INTO ENTREGADOR(Nome, Sexo, RG, CPF, Salario, Nascimento, CNH)
 VALUES ('Jessica Martins', 'F','7788990','80190110505',3050,'23/07/1983','08543217891');
 
 INSERT INTO ENTREGADOR(Nome, Sexo, RG, CPF, Salario, Nascimento, CNH) 
-VALUES ('Jheiziany Ruth', 'F','0102030','80244261601',2990,'24/07/1984','0414051593');
+VALUES ('Jheiziany Ruth', 'F','0102030','80244261601',2990,'24/07/1984','04140515936');
 
 INSERT INTO ENTREGADOR(Nome, Sexo, RG, CPF, Salario, Nascimento, CNH) 
 VALUES ('Leonardo Deca', 'M','1021036','50182171702',2810,'25/07/1985','01213141867');
 
+
+INSERT INTO CAMINHAO (Placa, Modelo, Montadora, Categoria)
+VALUES ('NQD1745','24250','Volks','Semipesado');
+
+INSERT INTO CAMINHAO (Placa, Modelo, Montadora, Categoria)
+VALUES ('NPT1213','8150','Volks','Leve');
+
+INSERT INTO CAMINHAO (Placa, Modelo, Montadora, Categoria)
+VALUES ('GRU4568','710','Mercedes','Leve');
+
+INSERT INTO CAMINHAO (Placa, Modelo, Montadora, Categoria)
+VALUES ('ARE2356','9150','Volks','Leve');
+
+INSERT INTO CAMINHAO (Placa, Modelo, Montadora, Categoria)
+VALUES ('YOU6789','13180','Volks','Médio');
+
+INSERT INTO CAMINHAO (Placa, Modelo, Montadora, Categoria)
+VALUES ('OLR5500','FH460','Volvo','Pesado');	
+
+
+INSERT INTO MERCADORIA(Preço, Codigo, Tipo, Nome)
+VALUES (4.1,'001','Cerveja','Devassa');
+
+INSERT INTO MERCADORIA(Preço, Codigo, Tipo, Nome)
+VALUES (16.65,'002','Cerveja','BadenBaden');
+
+INSERT INTO MERCADORIA(Preço, Codigo, Tipo, Nome)
+VALUES (5.41,'003','Cerveja','Eisenbahn');
+
+INSERT INTO MERCADORIA(Preço, Codigo, Tipo, Nome)
+VALUES (1.70,'004','Suco','Skinka');
+
+INSERT INTO MERCADORIA(Preço, Codigo, Tipo, Nome)
+VALUES (1.43,'005','Água','Schin');
+
+INSERT INTO MERCADORIA(Preço, Codigo, Tipo, Nome)
+VALUES (4.41,'006','Energético','K');
+
+
+INSERT INTO CLIENTE(NomeEstabelecimento,CPF,Rua,Bairro,Cidade)
+VALUES('Super Félix','12356798341',' Francisco Cartaxo Corrêa Sá','Estação','Sousa-PB');
+
+INSERT INTO CLIENTE(NomeEstabelecimento,CPF,Rua,Bairro,Cidade)
+VALUES('Franco Mercantil','12343255507','Capitão Israel','Centro','Uiraúna-PB');
+
+INSERT INTO CLIENTE(NomeEstabelecimento,CPF,Rua,Bairro,Cidade)
+VALUES('Churrascaria do Motor','23356688808','Júlio Marquês Nascimento','Lot. dos Médicos','Cajazeiras-PB');
+
+INSERT INTO CLIENTE(NomeEstabelecimento,CPF,Rua,Bairro,Cidade)
+VALUES('Ponto 8','56787644405','Júlio Marquês Nascimento','Lot. Parque Rosina Parente','Cajazeiras-PB');
+
+INSERT INTO CLIENTE(NomeEstabelecimento,CPF,Rua,Bairro,Cidade)
+VALUES('Bom Preço','10876544406','Firmino Tomaz de Aquino','Centro','Bom Jesus-PB');	
 

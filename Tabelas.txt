@@ -66,18 +66,18 @@ CREATE TABLE CAMINHAO(
 
 CREATE TABLE MERCADORIA (
 	Preço REAL NOT NULL,
-    Codigo int,
-    Tipo VARCHAR(10) NOT NULL,
-    Nome VARCHAR(10) NOT NULL,
+    Codigo VARCHAR(3),
+    Tipo VARCHAR(20) NOT NULL,
+    Nome VARCHAR(20) NOT NULL,
     PRIMARY KEY (Codigo)
 );
 
 CREATE TABLE CLIENTE(
-	NomeEstabelecimento VARCHAR(15) NOT NULL,
+	NomeEstabelecimento VARCHAR(30) NOT NULL,
     CPF VARCHAR(11),
-    Rua VARCHAR(15) NOT NULL,
-    Bairro VARCHAR(15) NOT NULL,
-    Cidade VARCHAR(15) NOT NULL,
+    Rua VARCHAR(30) NOT NULL,
+    Bairro VARCHAR(30) NOT NULL,
+    Cidade VARCHAR(30) NOT NULL,
     PRIMARY KEY (CPF)
 );
 
@@ -102,7 +102,7 @@ CREATE TABLE VENDA (
 
 CREATE TABLE TEM_MERCADORIA(
 	CodVenda int,
-    CodMercadoria int,
+    CodMercadoria VARCHAR(3),
     Quantidade int NOT NULL,
     PreçoUnitario REAL NOT NULL,
     PRIMARY KEY (CodVenda, CodMercadoria),
@@ -114,7 +114,7 @@ CREATE TABLE TEM_MERCADORIA(
 
 CREATE TABLE CONTROLA_MERCADORIA(
 	CPFEstoquista VARCHAR(11) NOT NULL,
-    CodMercadoria int NOT NULL,
+    CodMercadoria VARCHAR(3) NOT NULL,
     Quantidade int NOT NULL,
     PRIMARY KEY (CPFEstoquista, CodMercadoria),
     FOREIGN KEY (CPFEstoquista) REFERENCES ESTOQUISTA(CPF)
@@ -125,7 +125,7 @@ CREATE TABLE CONTROLA_MERCADORIA(
 
 CREATE TABLE ENTREGA_MERCADORIA(
 	CPFEntregador VARCHAR(11) NOT NULL,
-    CodMercadoria int NOT NULL,
+    CodMercadoria VARCHAR(3) NOT NULL,
     PRIMARY KEY (CPFEntregador, CodMercadoria),
     FOREIGN KEY (CPFEntregador) REFERENCES ENTREGADOR(CPF)
     ON DELETE RESTRICT ON UPDATE CASCADE,
