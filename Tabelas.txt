@@ -88,7 +88,7 @@ CREATE TABLE CLIENTE(
 
 CREATE TABLE VENDA (
 	Codigo int,
-    Hora VARCHAR(5) NOT NULL,
+    Hora TIME NOT NULL,
     Cidade VARCHAR(20) NOT NULL,
     Data DATE NOT NULL,
     ValorTotal REAL NOT NULL,
