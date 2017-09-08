@@ -48,19 +48,19 @@ VALUES ('Kaiky Sarmento', 'M','6546522','80255533450',1800,'24/06/1998');
 
 
 INSERT INTO ESTOQUISTA(Nome, Sexo, RG, CPF, Salario, Nascimento) 
-VALUES ('Lionel Messi', 'M','7787576','10802840808',2700,'01/01/1981');
+VALUES ('Fábio Andrade', 'M','7787576','10802840808',2700,'01/01/1981');
 
 INSERT INTO ESTOQUISTA(Nome, Sexo, RG, CPF, Salario, Nascimento) 
 VALUES ('Francinete Flor', 'F','3131313','10902930909',2510,'02/02/1982');
 
 INSERT INTO ESTOQUISTA(Nome, Sexo, RG, CPF, Salario, Nascimento) 
-VALUES ('Dean Winchester', 'M','4141415','10540502545',1950,'03/03/1983');
+VALUES ('Jefferson Pereira', 'M','4141415','10540502545',1950,'03/03/1983');
 
 INSERT INTO ESTOQUISTA(Nome, Sexo, RG, CPF, Salario, Nascimento) 
 VALUES ('Fernanda Flor', 'F','2021279','20120244402',2440,'04/04/1984');
 
 INSERT INTO ESTOQUISTA(Nome, Sexo, RG, CPF, Salario, Nascimento) 
-VALUES ('Edinson Cavani', 'M','9101299','30130240403',3000,'05/05/1985');
+VALUES ('Davi Gomes', 'M','9101299','30130240403',3000,'05/05/1985');
 
 
 INSERT INTO ENTREGADOR(Nome, Sexo, RG, CPF, Salario, Nascimento, CNH) 
