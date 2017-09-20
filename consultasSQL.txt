@@ -1,0 +1,37 @@
+1 - O nome, CPF e salário de todos os vendedores que trabalham na cidade Sousa.
+
+SELECT V.Nome, V.Cpf, V.Salario
+FROM CIDADES_VENDEDOR CV, VENDEDOR V
+WHERE V.CPF=CV.CPFVendedor AND CV.Cidade LIKE 'Sousa%'
+
+10- O CPF de todos os clientes com o nome do estabelecimento iniciado pela letra 'F'.
+
+SELECT NomeEstabelecimento, CPF
+FROM CLIENTE 
+WHERE NomeEstabelecimento LIKE 'F%'
+
+9- O valor acumulado em todas as vendas registradas.
+
+SELECT SUM(ValorTotal) AS ValorAcumulado
+FROM VENDA
+
+3- A quantidade de vendas com valor total acima de R$ 300,00.
+
+SELECT COUNT(*) AS Quantidade
+FROM VENDA
+WHERE ValorTotal>300
+
+2- Todos os dados dos estoquistas que controlam a mercadoria com código '001', ordenados pelo salário.
+
+SELECT E.*
+FROM ESTOQUISTA E, CONTROLA_MERCADORIA CM
+WHERE E.CPF=CM.CPFEstoquista AND CM.CodMercadoria='001'
+ORDER BY E.Salario DESC
+
+4- O nome, código e preço de todas as mercadorias do tipo "Cerveja", ordenados em ordem alfabética.
+
+SELECT Nome, Codigo, Preço
+FROM MERCADORIA
+WHERE Tipo='Cerveja' 
+ORDER BY Nome 
+

@@ -18,7 +18,7 @@ GROUP BY M.Codigo
 ORDER BY SUM(CM.Quantidade) DESC
 
 
-O nome do entregador e a quantidade de vezes em que cada caminhão foi usado por ele
+O nome do entregador e a quantidade de vezes em que cada caminhão foi usado por ele.
 
 CREATE VIEW ENTREGAS AS
 SELECT E.Nome, COUNT(*) AS Quantidade
