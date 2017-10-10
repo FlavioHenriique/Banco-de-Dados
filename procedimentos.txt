@@ -4,7 +4,7 @@ CREATE FUNCTION SalarioFuncionarios(Real)
    	RETURNS int AS $$ 	
    	DECLARE Sal Alias FOR $1; 
             cont INTEGER:=0; 
-		Resultado Supervisor%RowType; 
+		Resultado Supervi	sor%RowType; 
 	BEGIN 
 		FOR Resultado IN SELECT * FROM SUPERVISOR WHERE Salario>Sal 
 		LOOP 

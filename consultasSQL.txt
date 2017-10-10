@@ -64,7 +64,8 @@ WHERE Codigo IS NOT NULL
 
 SELECT NomeEstabelecimento, CPF
 FROM CLIENTE 
-WHERE NomeEstabelecimento LIKE 'F%' AND NomeEstabelecimento IS NOT NULL
+WHERE NomeEstabelecimento LIKE 'F%' 
+AND NomeEstabelecimento IS NOT NULL
 
 
 11- Para cada cidade em que existem clientes, recuperar o nome da cidade e a quantidade de clientes.
