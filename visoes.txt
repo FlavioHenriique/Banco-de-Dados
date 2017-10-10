@@ -1,4 +1,4 @@
-O nome do estabelecimento do cliente e o valor total de todas as 
+O nome do estabelecimento do cliente e o valor de todas as 
 vendas realizadas na cidade Cajazeiras, ordenados pelo valor
 total da venda.
 
