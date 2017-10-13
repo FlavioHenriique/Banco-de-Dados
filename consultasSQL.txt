@@ -4,7 +4,8 @@ SELECT V.Nome, V.Cpf, V.Salario
 FROM CIDADES_VENDEDOR CV, VENDEDOR V
 WHERE V.CPF=CV.CPFVendedor AND CV.Cidade LIKE 'Sousa%'
 
-2- Todos os dados dos estoquistas que controlam a mercadoria com código '001', ordenados pelo salário.
+2- Todos os dados dos estoquistas que controlam a mercadoria com código '001', 
+ordenados pelo salário em ordem decrescente.
 
 SELECT E.*
 FROM ESTOQUISTA E, CONTROLA_MERCADORIA CM

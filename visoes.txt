@@ -1,4 +1,4 @@
-O nome do estabelecimento do cliente e o valor de todas as 
+1) O nome do estabelecimento do cliente e o valor de todas as 
 vendas realizadas na cidade Cajazeiras, ordenados pelo valor
 total da venda.
 
@@ -8,7 +8,7 @@ FROM CLIENTE C, VENDA V
 WHERE C.Cpf=V.CpfCliente AND V.Cidade LIKE 'Cajazeiras%'
 ORDER BY V.ValorTotal DESC
 
-O nome, o código e a quantidade de cada mercadoria em estoque na empresa.
+2) O nome, o código e a quantidade de cada mercadoria em estoque na empresa.
 
 CREATE VIEW Estoque AS 
 SELECT M.Nome, M.Codigo, SUM(CM.Quantidade) AS Quantidade
@@ -18,7 +18,7 @@ GROUP BY M.Codigo
 ORDER BY SUM(CM.Quantidade) DESC
 
 
-O nome do entregador e a quantidade de vezes em que cada caminhão foi usado por ele.
+3) O nome do entregador e a quantidade de vezes em que cada caminhão foi usado por ele.
 
 CREATE VIEW ENTREGAS AS
 SELECT E.Nome, COUNT(*) AS Quantidade
